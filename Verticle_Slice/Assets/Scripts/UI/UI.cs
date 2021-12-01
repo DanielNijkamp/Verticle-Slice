@@ -11,6 +11,7 @@ public class UI : MonoBehaviour
     
     public TextMeshProUGUI time_text;
     public TextMeshProUGUI date_text;
+    public GameObject itemOutline;
     public int currentItem;
 
     
@@ -90,12 +91,15 @@ public class UI : MonoBehaviour
                         currentItem = 11;
                         break;
                 }
+        UpdateOutline();
         
     }
     private void OnGUI()
     {
         time_text.text = string.Format(DateTime.Now.ToString("HH:m tt"));
         date_text.text = string.Format($"{DateTime.Now.DayOfWeek.ToString().Substring(0,3)}. {DateTime.Now.Day.ToString()}");
+        
+
     }
     
     public void ButtonPressed(Button button)
@@ -104,8 +108,13 @@ public class UI : MonoBehaviour
         {
             int index = buttons.IndexOf(button);
             currentItem = buttons.IndexOf(button);
-            
+            UpdateOutline();
         }
     }
+    public void UpdateOutline()
+    {
+        itemOutline.transform.position = buttons[currentItem].transform.position;
+    }
+    
     
 }
