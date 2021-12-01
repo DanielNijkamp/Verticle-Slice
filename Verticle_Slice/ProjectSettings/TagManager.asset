@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: GroundLayer
+    uniqueID: 2562283075
+    locked: 0
+  - name: OutofBounceLayer
+    uniqueID: 1752305039
+    locked: 0
