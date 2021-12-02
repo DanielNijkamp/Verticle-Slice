@@ -17,12 +17,9 @@ public class Movement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.sqrMagnitude);
+        
     }
-    //transform.localscale flip on x to make the animation in code instead of the unity blend tree
-
+    
     private void FixedUpdate()
     {
         // movement
