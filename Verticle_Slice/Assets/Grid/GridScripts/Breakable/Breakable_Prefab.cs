@@ -13,6 +13,7 @@ public class Breakable_Prefab : MonoBehaviour
     [Header("De sprites om te controleren welke drops/animatie het heeft.")]
     [SerializeField] private Sprite _sprites;
     private SpriteRenderer _sprite;
+    private ParticleSystem _pr;
 
     [Header("Het aantal treffers dat nodig is om een ​​object te breken.")]
     [SerializeField] private float _hits;
@@ -33,7 +34,7 @@ public class Breakable_Prefab : MonoBehaviour
         if (_isTree == true)
         {
             _hits -= amount;
-
+            _pr.Play();
             if (_hits == 5)
             {
                 _ani.Play();
