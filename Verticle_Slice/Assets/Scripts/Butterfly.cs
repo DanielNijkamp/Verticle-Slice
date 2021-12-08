@@ -25,6 +25,7 @@ public class Butterfly : MonoBehaviour
             AnimationClip randClip = clips[randInd];
 
             animator.Play(randClip.name);
+            
     }
     private void Awake()
     {
