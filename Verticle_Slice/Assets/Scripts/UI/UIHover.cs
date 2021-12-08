@@ -3,18 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Hover : MonoBehaviour, IPointerEnterHandler, IPointerDownHandler
+public class UIHover : MonoBehaviour
 {
-
-    public void OnPointerEnter(PointerEventData ped)
+    public void OnMouseEnter()
     {
-        //FindObjectOfType<SoundManagerScript>().MouseOverButton();
-        //increase size
+        GetComponentInChildren<Transform>().localScale += new Vector3(0.1f, 0.1f);
     }
-
-    public void OnPointerDown(PointerEventData ped)
+    public void OnMouseExit()
     {
-        //FindObjectOfType<SoundManagerScript>().ButtonPressed();
-        //go back to normal size
+        GetComponentInChildren<Transform>().localScale -= new Vector3(0.1f, 0.1f);
     }
 }

@@ -96,7 +96,7 @@ public class UI : MonoBehaviour
     }
     private void OnGUI()
     {
-        time_text.text = string.Format(DateTime.Now.ToString("HH:m tt"));
+        time_text.text = string.Format(DateTime.Now.ToString("HH:mm tt"));
         date_text.text = string.Format($"{DateTime.Now.DayOfWeek.ToString().Substring(0,3)}. {DateTime.Now.Day.ToString()}");
         
 
