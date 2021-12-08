@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8634852317114922435, guid: 98afa977b29376c478e5b50aa6100540, type: 3}
       propertyPath: m_Name
-      value: Maple Tree
+      value: Tree_0
       objectReference: {fileID: 0}
     - target: {fileID: 8634852317114922460, guid: 98afa977b29376c478e5b50aa6100540, type: 3}
       propertyPath: m_RootOrder

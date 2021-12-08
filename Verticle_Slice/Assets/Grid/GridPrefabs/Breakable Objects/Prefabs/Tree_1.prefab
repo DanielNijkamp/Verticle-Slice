@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2909243560711158472, guid: f12947530d669c744b1c3c20bc433cee, type: 3}
       propertyPath: m_Name
-      value: Oak Tree
+      value: Tree_1
       objectReference: {fileID: 0}
     - target: {fileID: 2909243560711158473, guid: f12947530d669c744b1c3c20bc433cee, type: 3}
       propertyPath: _hits
