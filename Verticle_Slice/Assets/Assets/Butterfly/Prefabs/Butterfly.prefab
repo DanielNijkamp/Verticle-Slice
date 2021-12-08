@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 2631234111903435857}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.64, y: -2.552, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -115,14 +115,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea881525afd807841bc61061da9f064d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animations:
-  - {fileID: 7400000, guid: 2589885db66f8c5439f08669c8c05db4, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
