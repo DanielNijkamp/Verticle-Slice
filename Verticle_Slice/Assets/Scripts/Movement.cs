@@ -20,8 +20,9 @@ public class Movement : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
+    
+       // transform.localscale flip on x to make the animation in code instead of the unity blend tree
     }
-    //transform.localscale flip on x to make the animation in code instead of the unity blend tree
 
     private void FixedUpdate()
     {
