@@ -31,6 +31,7 @@ public class Breakable_Prefab : MonoBehaviour
 
     public void TakeDamage(float amount)
     {
+        _sprite = this.gameObject.GetComponent<SpriteRenderer>();
         if (_isTree == true)
         {
             _hits -= amount;
