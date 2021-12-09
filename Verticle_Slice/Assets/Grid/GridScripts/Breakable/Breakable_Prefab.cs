@@ -20,7 +20,7 @@ public class Breakable_Prefab : MonoBehaviour
 
     [Header("Wat het gameobject laat vallen en animatie.")]
     public GameObject[] drops;
-    [SerializeField] private Animation _ani;
+    [SerializeField] private Animation[] _ani;
 
     [Header("Het bereik van elke druppel voor de objecten.")]
     [SerializeField] private float _MidR = 0.5f;
@@ -35,9 +35,10 @@ public class Breakable_Prefab : MonoBehaviour
         {
             _hits -= amount;
             _pr.Play();
+            _ani[0].Play();
             if (_hits == 5)
             {
-                _ani.Play();
+                _ani[1].Play();
                 _sprite.sprite = _sprites;
                 Dropes(_MidR, _a, _b);
             }
