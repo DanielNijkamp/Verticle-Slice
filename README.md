@@ -4,6 +4,9 @@
 
 ## Artists:
 Shannon 
+Indy
+Elissa
+Nando
 ## Developers:
 Yair
 Jordan
