@@ -107,6 +107,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2908831623881151710, guid: 6c7579ff21fdfcf45b6acb1a929d9b1a, type: 3}
+      propertyPath: m_UseFullKinematicContacts
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2990285657931591368, guid: 6c7579ff21fdfcf45b6acb1a929d9b1a, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 2.5

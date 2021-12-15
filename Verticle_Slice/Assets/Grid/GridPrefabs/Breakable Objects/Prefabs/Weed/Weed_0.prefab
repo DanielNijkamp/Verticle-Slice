@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1962183518320637883, guid: a5845b2d2f79aeb44bd3d094fb46ddf9, type: 3}
+      propertyPath: m_UseFullKinematicContacts
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2843367173234387587, guid: a5845b2d2f79aeb44bd3d094fb46ddf9, type: 3}
       propertyPath: m_Name
       value: Weed_0
