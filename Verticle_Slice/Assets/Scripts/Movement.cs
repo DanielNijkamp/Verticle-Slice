@@ -9,17 +9,42 @@ public class Movement : MonoBehaviour
 
     public Rigidbody2D rb;
     public Animator animator;
-    public AnimationClip[] idle_animations;
     public SpriteRenderer spriteRenderer;
     public Sprite[] idlesprites;
     public int direction;
 
-    Vector2 movement;
+    public bool isHitting;
 
+    Vector2 movement;
+    private void Start()
+    {
+        isHitting = false;
+    }
     void Update()
     {
-        //input
-        
+        if (movement.x == 0 && movement.y == 0)
+        {
+            isIdle = true;
+            animator.SetBool("IsIdle", true);
+            spriteRenderer.sprite = idlesprites[direction];
+            if (isHitting)
+            {
+                animator.enabled = true;
+            }
+            else
+            {
+                animator.enabled = false;
+                animator.StopPlayback();
+            }
+        }
+        else
+        {
+            animator.enabled = true;
+            isIdle = false;
+            animator.SetBool("IsIdle", false);
+
+        }
+
     }
     
     private void FixedUpdate()
@@ -28,8 +53,7 @@ public class Movement : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
         if (!isIdle)
-        {
-
+        { 
             animator.SetFloat("horizontal", movement.x);
             animator.SetFloat("vertical", movement.y);
         }
@@ -57,18 +81,7 @@ public class Movement : MonoBehaviour
                 break;
 
         }
-        if (movement.x == 0 && movement.y == 0)
-        {
-            isIdle = true;
-            animator.SetBool("IsIdle", true);
-            animator.SetFloat("horizontal", 0);
-            animator.SetFloat("vertical", 0);
-            spriteRenderer.sprite = idlesprites[direction];
-        }
-        else
-        {
-            isIdle = false;
-            animator.SetBool("IsIdle", false);
-        }
+        
     }
+    
 }

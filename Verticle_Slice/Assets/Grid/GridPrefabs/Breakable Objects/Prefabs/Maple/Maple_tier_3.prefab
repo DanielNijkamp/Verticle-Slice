@@ -72,6 +72,14 @@ PrefabInstance:
       value: Maple_tier_3
       objectReference: {fileID: 0}
     - target: {fileID: 7580054585319582201, guid: c5b726b6a644eb74291a4eb7c8d59186, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7391262
+      objectReference: {fileID: 0}
+    - target: {fileID: 7580054585319582201, guid: c5b726b6a644eb74291a4eb7c8d59186, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.29130578
+      objectReference: {fileID: 0}
+    - target: {fileID: 7580054585319582201, guid: c5b726b6a644eb74291a4eb7c8d59186, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 0.75
       objectReference: {fileID: 0}

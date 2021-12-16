@@ -1,0 +1,540 @@
+fileFormatVersion: 2
+guid: baab800c3f4b901438547d110d90e0db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8029508235781015566
+    second: pickaxe-s-spritesheet_0
+  - first:
+      213: -4374380820038778483
+    second: pickaxe-s-spritesheet_1
+  - first:
+      213: -860122234746723896
+    second: pickaxe-s-spritesheet_2
+  - first:
+      213: 1485159618305383076
+    second: pickaxe-s-spritesheet_3
+  - first:
+      213: -8831736391562321942
+    second: pickaxe-s-spritesheet_4
+  - first:
+      213: -7700649253734791639
+    second: pickaxe-s-spritesheet_5
+  - first:
+      213: 3276606595993234232
+    second: pickaxe-s-spritesheet_6
+  - first:
+      213: -2001028738878435197
+    second: pickaxe-s-spritesheet_7
+  - first:
+      213: 8528470845486995616
+    second: pickaxe-s-spritesheet_8
+  - first:
+      213: 4250906110228729939
+    second: pickaxe-s-spritesheet_9
+  - first:
+      213: -341827172939368208
+    second: pickaxe-s-spritesheet_10
+  - first:
+      213: 2450918903351269585
+    second: pickaxe-s-spritesheet_11
+  - first:
+      213: -2900675890367841518
+    second: pickaxe-s-spritesheet_12
+  - first:
+      213: 4096353896710513440
+    second: pickaxe-s-spritesheet_13
+  - first:
+      213: 8185638769629479417
+    second: pickaxe-s-spritesheet_14
+  - first:
+      213: 8927520015154452722
+    second: pickaxe-s-spritesheet_15
+  - first:
+      213: 738547731201598734
+    second: pickaxe-s-spritesheet_16
+  - first:
+      213: 7447827832147181128
+    second: pickaxe-s-spritesheet_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pickaxe-s-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 907
+        width: 70
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e080dc2c23b8e6f60800000000000000
+      internalID: 8029508235781015566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickaxe-s-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 907
+        width: 70
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d818e4512d31b43c0800000000000000
+      internalID: -4374380820038778483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickaxe-s-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 907
+        width: 70
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1a186726b3014f0800000000000000
+      internalID: -860122234746723896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickaxe-s-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 907
+        width: 70
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aad8dbddc85c9410800000000000000
+      internalID: 1485159618305383076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickaxe-s-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 912
+        width: 70
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef990f5b8e5f6580800000000000000
+      internalID: -8831736391562321942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickaxe-s-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 612
+        width: 70
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926c243bd4cc12590800000000000000
+      internalID: -7700649253734791639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickaxe-s-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 612
+        width: 70
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83be0eeb658d87d20800000000000000
+      internalID: 3276606595993234232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickaxe-s-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 602
+        width: 70
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3809dc1c6faea34e0800000000000000
+      internalID: -2001028738878435197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickaxe-s-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 602
+        width: 70
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a817865c073b5670800000000000000
+      internalID: 8528470845486995616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickaxe-s-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 602
+        width: 70
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35098b1c5904efa30800000000000000
+      internalID: 4250906110228729939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickaxe-s-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 302
+        width: 70
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f87f5e4ff5914bf0800000000000000
+      internalID: -341827172939368208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickaxe-s-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 302
+        width: 70
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8da8fc1c9630220800000000000000
+      internalID: 2450918903351269585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickaxe-s-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 302
+        width: 70
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bb51a65aabeb7d0800000000000000
+      internalID: -2900675890367841518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickaxe-s-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 302
+        width: 70
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023a7b76a2c29d830800000000000000
+      internalID: 4096353896710513440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickaxe-s-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 302
+        width: 70
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f14e63771b399170800000000000000
+      internalID: 8185638769629479417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickaxe-s-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2
+        width: 70
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8987c572ce4eb70800000000000000
+      internalID: 8927520015154452722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickaxe-s-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 2
+        width: 70
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0521ff9f39df3a00800000000000000
+      internalID: 738547731201598734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pickaxe-s-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 2
+        width: 70
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e766bf3fffb5760800000000000000
+      internalID: 7447827832147181128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

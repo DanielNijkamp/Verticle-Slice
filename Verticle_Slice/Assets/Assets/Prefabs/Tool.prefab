@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4125460203991568704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4125460203991568709}
+  - component: {fileID: 4125460203991568710}
+  m_Layer: 0
+  m_Name: Tool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4125460203991568709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4125460203991568704}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4125460203991568710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4125460203991568704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edfdc8c9da674fd4f80e45f7b6295d21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BP: {fileID: 0}
+  _layer:
+    serializedVersion: 2
+    m_Bits: 64
+  toolrange: 1
+  axe_animations:
+  - {fileID: 7400000, guid: 79fc21d27b8b6af4495322d975017df6, type: 2}
+  - {fileID: 7400000, guid: 2c607880af8479d4e833074b7bb26b7f, type: 2}
+  - {fileID: 7400000, guid: 1e586674a069c7e4bb537880ab0d7d0e, type: 2}
+  - {fileID: 7400000, guid: 7eaa3e9405927db448ac61f12bde77ac, type: 2}
+  pickaxe_animations:
+  - {fileID: 7400000, guid: 09598bcef75fd7140a7ce5f8ec20ff1c, type: 2}
+  - {fileID: 7400000, guid: ec45dfa6a0e53974dafb1c82acce44fa, type: 2}
+  - {fileID: 7400000, guid: 3174fcfdc542fd44691d2fa75feedbf9, type: 2}
+  - {fileID: 7400000, guid: ad10803ad43b24b4dbbc972977bf5c0f, type: 2}
+  hoe_animations:
+  - {fileID: 7400000, guid: 11181eec092442f449218374459228c2, type: 2}
+  - {fileID: 7400000, guid: 5a3e9a36a9c5877478fbbbb4752757de, type: 2}
+  - {fileID: 7400000, guid: 0c88929ee9d3f9a479fbd3c0766da15f, type: 2}
+  - {fileID: 7400000, guid: 93ff2f49ff1c7244eb8cb0e51bec8749, type: 2}
+  player: {fileID: 0}
+  animator: {fileID: 0}
+  isAxe: 0
+  isPickaxe: 0
+  isHoe: 0
