@@ -4,6 +4,7 @@ public class Breakable_Prefab : MonoBehaviour
 {
     [Header("Alle bool om de tool te gebruiken.")]
     [SerializeField] private bool _oneDrop = false;
+
     [SerializeField] private bool _isTree = false;
     public bool isPickaxe = false;
     public bool isAxe = false;
@@ -12,6 +13,7 @@ public class Breakable_Prefab : MonoBehaviour
 
     [Header("De sprites om te controleren welke drops/animatie het heeft.")]
     [SerializeField] private Sprite _sprites;
+
     private SpriteRenderer _sprite;
     private ParticleSystem _pr;
 
@@ -20,26 +22,47 @@ public class Breakable_Prefab : MonoBehaviour
 
     [Header("Wat het gameobject laat vallen en animatie.")]
     public GameObject[] drops;
-    [SerializeField] private Animation[] _ani;
+
+    public AnimationClip ani;
+    private Animator _ani;
 
     [Header("Het bereik van elke druppel voor de objecten.")]
     [SerializeField] private float _MidR = 0.5f;
 
     [Header("Het bedrag dat iets kan laten vallen.")]
     [SerializeField] private int[] _a;
+
     [SerializeField] private int[] _b;
 
+    private int timer = 5;
+    private int timerRewind = 5;
+
+    public void Update()
+    {
+        if (timer <= 0)
+        {
+            timer = timerRewind;
+        } else
+        {
+            timer--;
+        }
+    }
     public void TakeDamage(float amount)
     {
+        _ani = this.gameObject.GetComponent<Animator>();
         _sprite = this.gameObject.GetComponent<SpriteRenderer>();
         if (_isTree == true)
         {
             _hits -= amount;
             _pr.Play();
-            _ani[0].Play();
+
+            if (timer <= 0)
+            {
+                _ani.Play(ani.name);
+            }
+
             if (_hits == 5)
             {
-                _ani[1].Play();
                 _sprite.sprite = _sprites;
                 Dropes(_MidR, _a, _b);
             }
