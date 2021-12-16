@@ -40,6 +40,7 @@ public class Movement : MonoBehaviour
         else
         {
             animator.enabled = true;
+            animator.StopPlayback();
             isIdle = false;
             animator.SetBool("IsIdle", false);
 

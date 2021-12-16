@@ -20,10 +20,18 @@ public class Tool : MonoBehaviour
     public bool isPickaxe;
     public bool isHoe;
     public bool isScythe;
+
+    public bool isCooldown;
     // Start is called before the first frame update
     void Start()
     {
         
+    }
+    IEnumerator cooldown(AnimationClip[] array, int dir)
+    {
+        isCooldown = true;
+        yield return new WaitForSecondsRealtime(array[dir].length);
+        isCooldown = false;
     }
 
     // Update is called once per frame
@@ -50,27 +58,34 @@ public class Tool : MonoBehaviour
     }
     public void PlayAnimation(int array)
     {
-        player.GetComponent<Movement>().isHitting = true;
-        int dir = player.GetComponent<Movement>().direction;
-        switch (array)
+        if (!isCooldown)
+        {
+            player.GetComponent<Movement>().isHitting = true;
+            int dir = player.GetComponent<Movement>().direction;
+            switch (array)
             {
-            case 0:
-                animator.Play(hoe_animations[dir].name);
-                StartCoroutine(disableAnimator(hoe_animations, dir));
-                break;
-            case 1:
-                animator.Play(axe_animations[dir].name);
-                StartCoroutine(disableAnimator(axe_animations, dir));
-                break;
-            case 2:
-                animator.Play(pickaxe_animations[dir].name);
-                StartCoroutine(disableAnimator(pickaxe_animations, dir));
-                break;
-            case 3:
-                animator.Play(scythe_animations[dir].name);
-                StartCoroutine(disableAnimator(scythe_animations, dir));
-                break;
+                case 0:
+                    animator.Play(hoe_animations[dir].name);
+                    StartCoroutine(disableAnimator(hoe_animations, dir));
+                    StartCoroutine(cooldown(hoe_animations, dir));
+                    break;
+                case 1:
+                    animator.Play(axe_animations[dir].name);
+                    StartCoroutine(disableAnimator(axe_animations, dir));
+                    StartCoroutine(cooldown(axe_animations, dir));
+                    break;
+                case 2:
+                    animator.Play(pickaxe_animations[dir].name);
+                    StartCoroutine(disableAnimator(pickaxe_animations, dir));
+                    StartCoroutine(cooldown(pickaxe_animations, dir));
+                    break;
+                case 3:
+                    animator.Play(scythe_animations[dir].name);
+                    StartCoroutine(disableAnimator(scythe_animations, dir));
+                    StartCoroutine(cooldown(scythe_animations, dir));
+                    break;
 
+            }
         }
     }
     IEnumerator disableAnimator(AnimationClip[] array, int dir)
@@ -79,8 +94,6 @@ public class Tool : MonoBehaviour
         player.GetComponent<SpriteRenderer>().sprite = player.GetComponent<Movement>().idlesprites[dir];
         animator.StopPlayback();
         player.GetComponent<Movement>().isHitting = false;
-        
-        
     }
     public void GetObjectType()
     {
